@@ -1,0 +1,24 @@
+html {
+  height: 100vh;
+}
+
+body {
+	background: url(https://static.pexels.com/photos/33309/toast-toaster-food-white-bread.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+button {
+	width: 200px;
+	height: 50px;
+	margin: 10px;
+	background: rgba(0,0,0,.8);
+	color: #fff;
+	border: none;
+	transition: all .5s;
+}
+
+button:hover {
+	box-shadow: 0 0 15px black;
+	text-shadow: 0 0 15px white;
+}
