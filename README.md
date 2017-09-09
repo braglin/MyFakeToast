@@ -4,7 +4,7 @@ A JQuery plugin to show a "toast like" popup message to be used in HTML applicat
 
 [DEMO](https://codepen.io/fabiobraglin/pen/prQqNo/)
 <br><br>
-ScreenShot:
+ScreenShot:<br>
 ![MyFakeToast](https://github.com/braglin/MyFakeToast/blob/master/MyFakeToast.png)
 
 ## How to use
