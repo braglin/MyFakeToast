@@ -2,7 +2,7 @@
 
 A JQuery plugin to show a "toast like" popup message to be used in HTML application.
 
-[DEMO](https://codepen.io/fabiobraglin/pen/prQqNo/)
+[DEMO](https://codepen.io/fabiobraglin/pen/XaveJy/)
 <br><br>
 ScreenShot:<br>
 ![MyFakeToast](https://github.com/braglin/MyFakeToast/blob/master/MyFakeToast.png)
@@ -18,7 +18,9 @@ Now add the toast to the body
 ```
 To show up the toast use the command bellow:
 ```
-toastMe("Hi! I'm a toast!", 2000);
+toastMe(msg(string), time(ms));
+
+e.g. toastMe("Hi! I'm a toast!", 2000);
 ```
 
 ## Requirements
