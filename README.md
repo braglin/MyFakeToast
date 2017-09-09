@@ -8,7 +8,7 @@ ScreenShot:<br>
 ![MyFakeToast](https://github.com/braglin/MyFakeToast/blob/master/MyFakeToast.png)
 
 ## How to use
-Add the my-fake-toast.js into the html page's head
+Add my-fake-toast.js into the html page's head
 ```
 <script src="js/my-fake-toast.js"></script>
 ```
@@ -25,3 +25,8 @@ e.g. toastMe("Hi! I'm a toast!", 2000);
 
 ## Requirements
 - [jQuery](https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js)
+
+
+
+<br><br><br><br>
+#### Fade effects from - [Animate.css](http://daneden.me/animate) by Daniel Eden
