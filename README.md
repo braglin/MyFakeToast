@@ -1,6 +1,6 @@
 # :bread: MyFakeToast :bread:
 
-A JQuery plugin to show a "toast like" popup message to be used in HTML application.
+A JS plugin to show a "toast like" popup message to be used in HTML application.
 
 [DEMO](https://codepen.io/fabiobraglin/pen/XaveJy/)
 <br><br>
