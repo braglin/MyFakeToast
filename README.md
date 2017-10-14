@@ -23,10 +23,6 @@ toastMe(msg(string), time(ms));
 e.g. toastMe("Hi! I'm a toast!", 2000);
 ```
 
-## Requirements
-- [jQuery](https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js)
-
-
 
 <br><br><br><br>
 #### Fade effects from - [Animate.css](http://daneden.me/animate) by Daniel Eden
