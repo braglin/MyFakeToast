@@ -12,10 +12,7 @@ Add my-fake-toast.js into the html page's head
 ```
 <script src="js/my-fake-toast.js"></script>
 ```
-Now add the toast to the body
-```
-<div class="toastMe"></div>
-```
+
 To show up the toast use the command bellow:
 ```
 toastMe(msg(string), time(ms), position(Top|Center|Bot);
