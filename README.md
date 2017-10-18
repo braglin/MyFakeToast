@@ -17,7 +17,7 @@ To show up the toast use the command bellow:
 ```
 toastMe(msg(string), time(ms), position(Top|Center|Bot);
 
-e.g. toastMe("Hi! I'm a toast!", 2000, Bot);
+e.g. toastMe("Hi! I'm a toast!", 2000, "Bot");
 ```
 
 
