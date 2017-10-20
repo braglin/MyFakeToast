@@ -1,20 +1,31 @@
+* {
+  outline: none;
+}
+
 html {
-  height: 100vh;
+	max-width: 360px; 
+	height: 640px; 
 }
 
 body {
-	background: url(https://static.pexels.com/photos/33309/toast-toaster-food-white-bread.jpg);
+	background-image: url(http://appslova.com/wp-content/uploads/2015/04/google-search-bar.jpg);
+	max-width: 360px; 
+	height: 640px; 
+	margin:auto;
 	background-size: cover;
 	background-repeat: no-repeat;
 }
 
 button {
-	width: 200px;
-	height: 50px;
-	margin: 10px;
-	background: rgba(0,0,0,.8);
+	
+	width: 80px;
+	height: 80px;
+	margin: 16px;
+	margin-top: 61vh;
+	background: rgba(0,0,0,.9);
 	color: #fff;
 	border: none;
+	border-radius: 50%;
 	transition: all .5s;
 }
 

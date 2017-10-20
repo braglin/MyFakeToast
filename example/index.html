@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <title>myFakeToast</title>
-  
+  <meta name="viewport" content="width=device-width, user-scalable=no">
   
   <link rel='stylesheet prefetch' href='https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css'>
   <link rel="stylesheet" href="css/style.css">
@@ -12,17 +12,18 @@
 </head>
 
 <body>
-  <div class="toastMe"></div>
-
-
-<button id="showToast">
-	Toast me!
+<button onclick="toastBig();">
+  Top!
 </button>
 
-<button id="showToastFA">
-	With FontAwesome!
+<button onclick="toastCenter();">
+  Center!
 </button>
-  <script src='https://code.jquery.com/jquery-3.2.1.min.js'></script>
+
+<button onclick="toastBot();">
+  Bottom!
+</button>
+
   <script type="text/javascript" src="js/my-fake-toast.js"></script>
     <script src="js/index.js"></script>
 
