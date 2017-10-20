@@ -2,10 +2,7 @@ window.onload = function(){
 	var b = document.body.innerHTML;
 	document.body.innerHTML = b + "<div style='position: absolute;max-width: 100%; width: 100%; border: none; height: 0vh; top: 0px; left: 0px;'><div class='toastMe'>TESTE</div></div>";
 	var userAgent = navigator.userAgent || navigator.vendor || window.opera;
-	var toastMeCss = ''
-	if (/android/i.test(userAgent)) {
-    	toastMeCss = '.toastMe { pointer-events:none; max-width: 95%;font-family: arial; font-size: 14px; overflow-wrap: break-word; position: relative;	margin: auto;	padding: 12px 14px;	z-index: 1000;	background: rgba(97,97,97, .95);	color: #fff;	text-shadow: 0px 0px 4px black;	text-align:center;	border-radius: 25px;	border: 1 solid rgba(50,50,50,1);	transition: display 1.5s; }';
-	}
+	var toastMeCss = '.toastMe { pointer-events:none; max-width: 95%;font-family: arial; font-size: 14px; overflow-wrap: break-word; position: relative;	margin: auto;	padding: 12px 14px;	z-index: 1000;	background: rgba(97,97,97, .95);	color: #fff;	text-shadow: 0px 0px 4px black;	text-align:center;	border-radius: 25px;	border: 1 solid rgba(50,50,50,1);	transition: display 1.5s; }';
 	if (/iPad|iPhone|iPod/.test(userAgent) && !window.MSStream) {
     	toastMeCss = '.toastMe { pointer-events:none; max-width: 95%;font-family: arial; font-size: 14px; overflow-wrap: break-word; position: relative;	margin: auto;	padding: 12px 14px;	z-index: 1000; background-color: rgba(0, 0, 0, 0.8);	text-align:center; border-radius: 6px; color: #fff; transition: display 0.8s;}';
 	}
