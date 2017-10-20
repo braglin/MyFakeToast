@@ -5,7 +5,9 @@ A JS plugin to show a "toast like" popup message to be used in HTML application.
 [DEMO](https://codepen.io/fabiobraglin/pen/XaveJy/)
 <br><br>
 ScreenShot:<br>
-![MyFakeToast](https://github.com/braglin/MyFakeToast/blob/master/MyFakeToast.png)
+![Android](https://github.com/braglin/MyFakeToast/raw/master/android.gif)
+![iOS](https://github.com/braglin/MyFakeToast/raw/master/ios.gif)
+
 
 ## How to use
 Add my-fake-toast.js into the html page's head
