@@ -17,10 +17,11 @@ function toastMe(msg, time, position) {
 	var a = document.getElementsByClassName("toastMe");
 	a[0].classList.remove("toastTop", "toastCenter", "toastBot");
 	a[0].innerHTML = msg;
-	a[0].style.width = (7*a[0].textContent.length) + 'px';
+	a[0].style.width = (8*a[0].textContent.length) + 'px';
 	a[0].style.maxWidth = '90%';	
 	a[0].classList.add("toast"+position);
 	a[0].classList.remove("toastHide");
-	a[0].classList.replace("fadeOut", "fadeIn");	
-	setTimeout(function(){a[0].classList.replace("fadeIn", "fadeOut");}, time);
+	a[0].classList.remove("fadeOut");
+	a[0].classList.add("fadeIn");	
+	setTimeout(function(){a[0].classList.remove("fadeIn"); a[0].classList.add("fadeOut");}, time);
 }
